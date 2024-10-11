@@ -1,0 +1,29 @@
+Reproducibility Report (also uploaded as docx.)
+Maya Krishnan
+
+Replicating Omatayo’s code 
+
+Summary: 
+
+The project was fully reproducible with minor issues pertaining mostly to differences between Macs and PCs and coding nuances in selecting data. The variables used and the regression model were fully reproducible. Neither I nor my coding partner produced tables that needed to be reproduced, just variable coding and a regression model. 
+
+Replicator’s Computing Environment: 
+
+Software: 
+Edition and OS : Mac OS Sonoma 14.5  
+R version 4.4.1 (2024-06-14) (nickname: Race for Your Life) 
+
+Hardware: 
+Macbook 2020 M1 Chip 
+
+Replication Steps: 
+
+1.	Downloaded data from the CAnD3 training hub 
+2.	Created new excel sheet with the six variables selected, titled “census_mini” 
+3.	Converted all variables to factors 
+4.	Ran basic linear regression using variables; effects of marital status, education, class of work, place of work, and sex and age group (which is the only variable that remained organized as continuous) 
+
+Classification: 
+Full reproduction with one minor issue. 
+
+I was able successfully reproduce the linear regression of my coding partner with no issues. The only issue I faced were the particularities of bringing in a xlsx using Windows coding which did not work on a Mac. Instead, I used a different code to bring in the ‘census_mini’ data set. This is more of a user specificity that I don’t think pertains to replicability since it’s dependent on the hardware/software. 
